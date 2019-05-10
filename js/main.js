@@ -74,7 +74,7 @@
 	    nav:true,
 	    autoplayHoverPause: false,
 	    items: 1,
-	    navText : ["<p><span class='ion-md-arrow-back'></span> Forward</p>","<p>Next <span class='ion-md-arrow-forward'></span></p>"],
+	    navText : ["<p><span class='ion-md-arrow-back'></span> Atrás</p>","<p>Siguiente <span class='ion-md-arrow-forward'></span></p>"],
 	    responsive:{
 	      0:{
 	        items:1
