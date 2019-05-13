@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Claudia Caicedo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tomorrow.css">
+    
+    </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Graficación<span>&</span>Animación</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Artículos</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">Acerca de</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/cssExerc.png');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread" >Ejercicios de Css</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span> Ejercicios de Css <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 order-lg-last ftco-animate">
+            <h2 class="mb-3">Práctica de Css con los ejercicios que se encuentran en W3School</h2>
+
+            <h4 class="mb-3 mt-5">Tema: Css Syntax</h4>
+            <p>1. Change the color of all <kbd> p</kbd> elements to "red".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                      p{ color:red; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>2. Change the color of the element with <kbd>id="para1"</kbd>, to "red".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                      #para1{ color:red; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css How to</h4>
+            <p>3. Add an external style sheet with the URL: <kbd>"mystyle.css"</kbd> .</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    &#60;link rel="stylesheet" href="mystyle.css" type="text/css"&#62;
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>4. Set <kbd>"background-color: linen"</kbd> for the page, using an internal style sheet.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    body{ background-color: linen; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Background</h4>
+            <p>5. Set <kbd>"paper.gif"</kbd> as the background image of the page.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    body { background-image: url("paper.gif"); }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>6. Specify that the background image should be shown once, in the top right corner.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    body{ 
+                      background-image: url("img_tree.png");
+                      background-repeat: no-repeat;
+                      background-position: right top;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Border</h4>
+            <p>7. Set a "4px", "dotted" border for <kbd>p</kbd></p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p{
+                      border-style: dotted;
+                      border-width: 4px;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>8. Change the 3 border properties, so that they only show the border on the top side.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                      p {
+                        border-top-style: dotted;
+                        border-top-width: 4px;
+                        border-top-color: red;
+                      }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Margin</h4>
+            <p>9. Set all margins for <kbd>h1</kbd> to "25px".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      background-color: lightblue;
+                      margin: 25px;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>10. Use the margin property to center align the <kbd>h1</kbd> element.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      background-color: lightblue;
+                      width: 300px;
+                      margin: auto;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Padding</h4>
+            <p>11. Set the top padding of <kbd>p</kbd> to "30px".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p {
+                      background-color: lightblue;
+                      padding: 30px
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>12. Use the padding property to set the top and bottom paddings for <kbd>p</kbd> to "25px", and left and right paddings to "50px".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p {
+                      background-color: lightblue;
+                      padding: 25px 50px;          
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+            <h4 class="mb-3 mt-5">Tema: Css height/Width</h4>
+            <p>13. Set the height of <kbd>h1</kbd> to "100px".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      background-color: lightblue;
+                      height: 100px;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>14. Set the width of <kbd>h1</kbd> to "50%".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      background-color: lightblue;
+                      width: 50%;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Box Model</h4>
+            <p>15. Set the width of the <kbd>div</kbd> to "200px".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      background-color: lightblue;
+                      width: 200px;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>16. Set the border of the <kbd>div</kbd> to "25px solid navy".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      background-color: lightblue;
+                      width: 200px;
+                      padding: 25px;
+                      border: 25px solid navy;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Outline</h4>
+            <p>17. Set a "solid", "5px" outline for <kbd>p</kbd></p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p {
+                      outline-style: solid;
+                      outline-width: 5px;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>18. Set the outline color for <kbd>p</kbd> to "green".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p {
+                      outline-style: solid;
+                      outline-width: 4px;
+                      outline-color: green;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Text</h4>
+            <p>19. Set the text color for the <kbd>page</kbd> to "red", and the text color for <kbd>h1</kbd> to "blue".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    body {
+                      color: red;
+                    }
+                    
+                    h1 {
+                      color: blue;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>20. Style text in <kbd>h1</kbd> to uppercase letters, and text in <kbd>p</kbd> to capitalized letters.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      text-transform: uppercase;
+                    }
+                    p {
+                      text-transform: capitalize;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Font</h4>
+            <p>21. Set the font family for the <kbd>page</kbd> to "Courier New", and the font family for <kbd>h1</kbd> to "Verdana".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    body {
+                      font-family: "Courier New";
+                    }
+                    
+                    h1 {
+                      font-family: Verdana;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>22. Show <kbd>p</kbd> elements as "bold" text.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    p {
+                      font-weight: bold;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Links</h4>
+            <p>23. Set the color for links to "green".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    a {
+                      color: green;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>24. Set the background color for visited and unvisited links to "lightblue", and the background color for the hover and active link states to "yellow".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                  /* unvisited link */
+                  a:link {
+                    background-color: lightblue;
+                  }
+                  
+                  /* visited link */
+                  a:visited {
+                    background-color: lightblue;
+                  }
+                  
+                  /* mouse over link */
+                  a:hover {
+                    background-color: yellow;
+                  }
+                  
+                  /* selected link */
+                  a:active {
+                    background-color: yellow;
+                  }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css List</h4>
+            <p>25. Set the list style for <kbd>unordered lists</kbd> to "square", and the list style for <kbd>ordered lists</kbd>  to "upper-roman"</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    ul { list-style-type: square; }
+                    
+                    ol { list-style-type: upper-roman;}
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>26. With the list-style property: Set the <kbd>unordered list</kbd> marker to "img_marker.png", with a backup style of "circle", and display the markers inside the content flow..</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    ul { list-style: circle inside url('img_marker.png'); }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Tables</h4>
+            <p>27. Set the border to "2px solid green" for table,<kbd>th and td elements</kbd> .</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    table, th, td { border: 2px solid green;}
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>28. Collapse the table borders into a single border.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    table {
+                      border-collapse: collapse;
+                    }
+                    table, td, th {
+                      border: 1px solid black;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Display/Visibility</h4>
+            <p>29. Hide the <kbd>h1</kbd> element. It should still take up the same space as before.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                   h1 { visibility: hidden;}
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>30. Display the list items as inline elements..</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                  li { display: inline; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Positioning</h4>
+            <p>31. Position the <kbd>h1</kbd> element relative to the browser window. 50px from the top, and 50px from the right.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      position: fixed;
+                      top: 50px;
+                      right: 50px;
+                      color: red;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>32. Position the <kbd>h1</kbd> element 50px from the left, and 100px from the top, relative to the HTML page.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    h1 {
+                      position: absolute;
+                      top: 100px;
+                      left: 50px;
+                      color: red;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Overflow</h4>
+            <p>33. Add a scrollbar to the <kbd>div</kbd> element.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      background-color: #eee;
+                      width: 200px;
+                      height: 70px;
+                      border: 1px dotted black;
+                      overflow: scroll;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>34. Specify that the overflowing text in the <kbd>div</kbd> element should not be visible, not even with scrolling.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      background-color: lightblue;
+                      width: 200px;
+                      height: 200px;
+                      overflow: hidden;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Align</h4>
+            <p>35.Center align the <kbd>div</kbd> element using margins.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      margin-left: auto;
+                      margin-right: auto;
+                      width: 300px;
+                      background-color: #b0e0e6;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>36. Position the <kbd>div</kbd> element all the way to the right using absolute positioning.</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div {
+                      position: absolute;
+                      right: 0px;
+                      width: 300px;
+                      background-color: #b0e0e6;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Combinator</h4>
+            <p>37. Change the color of all <kbd>p</kbd> elements, that are descendants of <kbd>div</kbd> elements, to "red".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div p { color: red; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>38. Change the color of <kbd>p</kbd> elements, that are the adjacent (immediately following) sibling of a <kbd>div</kbd> element, to "red".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    div + p { color: red; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          </br>
+          <h4 class="mb-3 mt-5">Tema: Css Pseudo-Classes</h4>
+            <p>39. Set the background color for visited and unvisited links to "lightblue", and the background color for the hover and active link states to "yellow".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    /* unvisited link */
+                    a:link {
+                      background-color: lightblue;
+                    }
+                    
+                    /* visited link */
+                    a:visited {
+                      background-color: lightblue;
+                    }
+                    
+                    /* mouse over link */
+                    a:hover {
+                      background-color: yellow;
+                    }
+                    
+                    /* selected link */
+                    a:active {
+                      background-color: yellow;
+                    }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+            <p>40. Set the background color of <kbd>input</kbd> elements that are in focus (clicked or active), to "lightblue".</p>
+              <pre><code class="xml">
+                &#60;head&#62;
+                  &#60;style&#62;
+                    input:focus { background-color: lightblue; }
+                  &#60;/style&#62;
+                &#60;/head&#62;
+            </code></pre>
+          
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-4 sidebar pr-lg-5 ftco-animate">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon icon-search"></span>
+                  <input type="text" class="form-control" placeholder="Escribe una keyword y presiona ENTER">
+                </div>
+              </form>
+            </div>
+
+
+            <div class="sidebar-box ftco-animate">
+              <h3 class="heading mb-4">Artículos Recientes</h3>
+              <div class="block-21 mb-4 d-flex">
+                  <a class="blog-img mr-4" style="background-image: url(images/js2.jpg);"></a>
+                  <div class="text">
+                    <h3><a href="jsQuiz.html">Prueba de JS</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="icon-calendar"></span> Mayo 08, 2019</a></div>
+                      <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    </div>
+                  </div>
+                </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/html.jpg);"></a>
+                <div class="text">
+                  <h3><a href="htmlQuiz.html">Prueba de HTML</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Mayo 08, 2019</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/css.png);"></a>
+                <div class="text">
+                  <h3><a href="cssQuiz.html">Prueba de Css</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Mayo 08, 2019</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+  <section class="ftco-subscribe ftco-section bg-light">
+    <div class="overlay">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 text-wrap text-center heading-section ftco-animate">
+            <h2 class="mb-4"><span>Suscríbete para recibir noticias</span></h2>
+            <p>"Lo que creemos que ya sabemos es a menudo lo que previene que aprendamos"</p>
+            <p>Claude Bernard.</p>
+            <div class="row d-flex justify-content-center mt-4 mb-4">
+              <div class="col-md-8">
+                <form action="#" class="subscribe-form">
+                  <div class="form-group d-flex">
+                    <input type="text" class="form-control" placeholder="Ingresa tu e-mail">
+                    <input type="submit" value="Suscríbete" class="submit px-3">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="ftco-footer ftco-footer-2 ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Graficación&Animación</h2>
+            <p>Un espacio dedicado a la materia de graficación y animación, el mundo del desarrollo web y nuevas tecnologías.</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate"><a href="https://twitter.com/Claudia_SCe" target="_blank"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/claudia.caicedo.7524" target="_blank"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/clautefa/" target="_blank"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Información</h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block">Terminos de Uso</a></li>
+              <li><a href="about.html" class="py-2 d-block">Acerca de Nosotros</a></li>
+              <li><a href="#" class="py-2 d-block">Política de Seguridad</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">¿Tienes Preguntas?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon icon-map-marker"></span><span class="text">Puce, Esmeraldas</span></li>
+                <li><span class="icon icon-phone"></span><span class="text">+593 1234567</span></li>
+                <li><span class="icon icon-envelope"></span><span class="text">claudia.sce@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/highlight.pack.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
+  </body>
+</html>
